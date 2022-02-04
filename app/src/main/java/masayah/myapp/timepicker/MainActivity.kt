@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
 
         val img = findViewById<ImageView>(R.id.time_picker_actions)
         img.setOnClickListener {
-            // ドラムロール式DatePickerを呼び出す
+            // ドラムロール式TimePickerを呼び出す
             val eText = findViewById<View>(R.id.time) as EditText
             MyTimePicker.showTimePicker(eText)
         }

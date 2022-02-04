@@ -30,6 +30,8 @@ object MyTimePicker {
         // ドラム式TimePicker表示
         val picker = TimePickerDialog(
             eText.rootView.context,
+
+            // ↓この行をコメントアウトすると標準の時刻入力ダイアログになります。
             AlertDialog.THEME_HOLO_LIGHT,   // テーマ：ドラム式 背景白
 
             // ダイアログでOKをクリックされたときの処理 時刻入力フィールドへ値を設定
